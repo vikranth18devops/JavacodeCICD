@@ -13,8 +13,7 @@ environment {
                 sh 'mvn clean deploy' 
             }
         }
-    }
-stage('SonarQube analysis') {
+    stage('SonarQube analysis') {
     environment {
       scannerHome = tool 'Sonar-Scanner'
     }
@@ -24,4 +23,6 @@ stage('SonarQube analysis') {
     }
     }
   }
+}
+
 }
