@@ -1,0 +1,5 @@
+http://54.224.154.174:8080/multibranch-webhook-trigger/invoke?token=dpp-token
+
+
+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 - Jenkins Password
+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 - terraform token
